@@ -1,0 +1,83 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>SEO Crawler Results</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+    <h1>SEO Crawler Results</h1>
+    <h2>Error Links:</h2>
+    <ul>
+        {% for link in error_links %}
+            <li><a href="{{ link }}">{{ link }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html> -->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SEO Crawler Results</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: rgb(59, 67, 85);
+            color: #fff;
+            padding: 20px;
+            margin: 0;
+        }
+
+        h2 {
+            color: #333;
+            margin: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            background-color: #fff;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        a {
+            text-decoration: none;
+            color: #3498db;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>SEO Crawler Results</h1>
+    <h2>Error Links:</h2>
+    <ul>
+        {% for link in error_links %}
+            <li><a href="{{ link }}">{{ link }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+

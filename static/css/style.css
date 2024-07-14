@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Chakra+Petch:wght@600&family=Josefin+Sans&family=Preahvihear&family=REM&family=Rubik+Wet+Paint&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .featuresbody{
+    background-image: url(images/featursbody.avif);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-position: center;
+} */
+
+
+/* home page  */
+
+.homediv{
+    background-image: url(../images/background.jpg);
+    width: 100%;
+    height: 1000px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    /* background-size: cover; */
+}
+
+.myicon{
+    height: 50px;
+    width: 50px;
+}
+.nav-link{
+    font-family:Preahvihear ;
+}
+.inputsection{
+    position: relative;
+}
+/* #links{
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    width: 500px;
+    height: 50px;
+    border: 2px solid;
+    outline: none;
+    text-align: center;
+    border-radius: 10px;
+} */
+
+.searchicon{
+    height: 50px;
+    width: 50px;
+}
+/* .btn1{
+    background: none;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 10px;
+    left: 850px;
+} */
+/* .search1{
+    text-align: center;
+    font-family: Josefin Sans;
+} */
+
+.search1 {
+    text-align: center;
+}
+
+.search1 input[type="text"] {
+    width: 800px; /* Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+    border: 2px solid #000; /* Add a border with a black color */
+    padding: 5px; /* Add some padding to improve appearance */
+    text-align: center; /* Center-align the text in the input field */
+    border-radius: 15px;
+}
+
+.search1 input[type="submit"] {
+    width: 100px; /* Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+    border: 2px solid #000; /* Add a border with a black color */
+    background-color:   #1221331c; /* Change the button background color if desired */
+    color: #120c31; /* Change the text color if desired */
+    text-align: center; /* Center-align the text in the button */
+    border-radius: 15px;
+    cursor: pointer;
+}
+.search1 input[type="submit"]:hover {
+    background-color: #545e68; /* Change the background color on hover */
+}
+
+
+.input-group{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+.navbar{
+    z-index: 2;
+}
+.inputsection{
+    
+    z-index: 1;
+}
+
+
+/* how it works page  */
+
+.hiwbody{
+    width: 100%;
+    height: 800px;
+    /* background-image: url(../images/hiw2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+.hiw{
+    top:200px;
+    /* left: 200px; */
+}
+.hiwtext{
+    width: 400px;
+    height: 300px;
+}
+.ptext{
+    font-family:Josefin Sans;
+    font-size: 20px;
+}
+
+.hiwbtnimage{
+    height: 100px;
+    width: 200px;
+    outline: none;
+    border: none;
+}
+.btn{
+    position: relative;
+}
+
+.hiwbutton{
+    border-radius: 30px;
+    /* padding: 20px; */
+    font-size:25px;
+    outline: none;
+    border: none;
+    background: none;
+    position: absolute;
+    left: 40px;
+    top: 35px;
+}
+.hiwbutton:hover{
+    color: blue;
+}
+
+.mycol2{
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/hiw2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.mycol1{
+    width: 100%;
+    height: 400px;
+}
+
+
+
+
+/* contactus page  */
+
+.mydiv{
+    height: 100px;
+    width: 200px;
+}
+.div1{
+    margin: 10px;
+    position: relative;
+    z-index: 3;
+}
+.div2{
+    margin: 20px;
+    position: relative;
+    top: -60px;
+}
+.div3{
+    background-color:blue;
+    margin: 30px;
+}
+
+.col2{
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/contactus.jpg);
+    background-position: center;
+    align-items: center;
+}
+.col1{
+    width: 100%;
+    height: 600px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* features page  */
+.features1{
+    background:linear-gradient(to bottom,rgb(255, 72, 133),rgb(14, 82, 209));
+}
+.featuresbody{
+    width: 100%;
+    /* height: 800px; */
+    
+}
+.features{
+    margin: 100px;
+}
+.carddiv{
+    background-color: white;
+    border-radius: 35px 36px 35px 90px;
+    transition: 0.5s;
+}
+.cardimgdiv{
+    height: 300px;
+    padding: 10px;
+}
+.cardtitle{
+    text-align: center;
+}
+.cardpara{
+    text-align: center;
+}
+
+.col{
+    margin-bottom: 40px;
+}
+.img{
+    margin-top: 40px;
+}
+.cardtitle{
+    padding: 0px 20px;
+    margin: 0px 20px;
+    border-radius: 20px;
+    background-color: yellow;
+    margin-bottom: 40px;
+    font-family: Rubik Wet Paint;
+}
+
+
+.cardpara{
+    font-family: rem;
+}
+.carddiv:hover{
+    box-shadow: 20px 20px 20px black;
+    /* border-radius: 30px; */
+}
+.col1 h1{
+    font-family: Barriecito;
+    color: blue;
+    font-size: 60px;
+}
+.col1 h3{
+    font-size: 30px;
+}
+
+.col1 p{
+    font-family: Chakra Petch;
+}
+
+.col1 button{
+    font-size: 25px;
+    font-weight: 600;
+    font-family:rem ;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(245, 100, 3, 0.671);
+    border: none;
+}
+.col1 button:hover{
+    background-color:rgb(53, 209, 14) ;
+}
+
